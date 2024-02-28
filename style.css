@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arvo", serif;
+}
+
+body {
+    background-color: #013e64;
+}
+
+.tela {
+    text-align: center;
+    margin-top: 140px;
+    margin-right: 55px;
+}
+
+.text {
+    text-align: center;
+    margin-right: 55px;
+}
+
+.dado {
+    margin: 20px auto;
+    display: block;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFFFF;
+    line-height: 56px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFFFF;
+    line-height: 55px;
+
+}
+
+.letra {
+    letter-spacing: 25px;
+    margin-left: 19px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.escreve {
+    background-color: #5e6061;
+    border: 1px solid #828382;
+    border-radius: 6px;
+    width: 150px;
+    height: 30px;
+    color: #FFFFFFFF;
+    outline: none;
+
+}
+
+.escreve::placeholder {
+    color: #FFFFFFFF;
+    font-size: 16px;
+}
+
+.escreve::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 3px;
+    width: 150px;
+    height: 35px;
+    background: #c34646;
+    color: #FFFFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 16px #c34646;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .4;
+}
+
+.quadrado {
+    margin-top: 25px;
+    text-shadow: 0 0 2px yellow;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.re {
+    color: #FFFFFFFF;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.result {
+    font-size: 45px;
+    font-weight: 400;
+    color: #FFFFFFFF;
+    line-height: 56px;
+    background-color: rgb(111, 210, 30);
+    height: 52px;
+    width: 115px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: 1px solid rgb(45, 77, 19);
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .dado {
+        margin: 0 81px 10px;
+        display: block;
+    }
+
+    h1 {
+        font-size: 29px;
+        font-weight: 700;
+        color: #FFFFFFFF;
+        line-height: 56px;
+        margin-left: 55px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFFFFFFF;
+        line-height: 65px;
+        margin-left: 55px;
+    }
+
+    .letra {
+        letter-spacing: 20px;
+        margin-left: 51px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .escreve {
+        background-color: #5e6061;
+        border: 1px solid #828382;
+        border-radius: 6px;
+        width: 111px;
+        height: 30px;
+        color: #FFFFFFFF;
+        outline: none;
+    }
+
+    button {
+        margin-top: 30px;
+        margin-left: 37px;
+        width: 150px;
+        height: 35px;
+        background: #c34646;
+        color: #FFFFFFFF;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 7px #c34646;
+    }
+
+    button:hover {
+        opacity: .8;
+    }
+
+    button:active {
+        opacity: .4;
+    }
+
+    .quadrado {
+        margin-top: 19px;
+        text-shadow: 0 0 2px yellow;
+        text-align: center;
+        margin-right: 25px;
+    }
+
+    .re {
+        color: #FFFFFFFF;
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .result {
+        font-size: 45px;
+        font-weight: 400;
+        color: #FFFFFFFF;
+        line-height: 56px;
+        background-color: rgb(111, 210, 30);
+        height: 52px;
+        width: 115px;
+        letter-spacing: 2px;
+        border-radius: 4px;
+        border: 1px solid rgb(45, 77, 19);
+        display: block;
+        margin: auto;
+    }
+}
